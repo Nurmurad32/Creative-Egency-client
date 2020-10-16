@@ -1,0 +1,10 @@
+.main-nav li a{
+    color: #474747 ;
+}
+.main-nav li a:hover{
+    background-color: #111430;
+    color: white;
+    /* border: 1px solid #111430; */
+    padding: 10px 40px !important;
+    border-radius: 5px;
+}

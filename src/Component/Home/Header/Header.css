@@ -1,0 +1,17 @@
+.header-container{
+    min-height: 685px;
+    max-height:auto;
+    position:relative;
+    background-color: #FBD062;
+}
+
+.header-container:before{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 200px;
+    clip-path: polygon(100% 50%,0 100%,100% 100%);
+}

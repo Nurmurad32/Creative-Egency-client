@@ -1,0 +1,12 @@
+.order-container{
+    /* margin-top:35px; */
+}
+.order-body{
+    background-color: #F4F7FC;
+    min-height: 400px;
+    max-height: auto;
+}
+.order-form{
+    width: 560px;
+    padding: 83px 0 16px 37px;
+}
