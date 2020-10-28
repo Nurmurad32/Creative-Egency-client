@@ -1,5 +1,31 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Website Link: [Creative Agency](https://creative-agency-4e8cf.web.app/).
+
+## Used Technologies:
+1. HTML
+2. CSS
+3. React js
+4. React Bootstrap
+5. Javascript
+6. Firebase
+7. MongoDB
+8. ExpressJS
+9. nodejs
+
+## Dependencies:
+1. firebase: "^7.23.0",
+2. jwt-decode: "^3.0.0",
+3. react: "^16.13.1",
+4. react-dom: "^16.13.1",
+5. react-elastic-carousel: "^0.9.0",
+6. react-hook-form: "^6.9.2",
+7. react-router-dom: "^5.2.0",
+8. react-scripts: "3.4.3",
+9. react-slick: "^0.27.11",
+10. react-spring: "^8.0.27",
+11. slick-carousel: "^1.8.1"
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -7,7 +7,7 @@ const ServiceList = () => {
     const { register, handleSubmit, errors } = useForm();
     const [orderList, setOrderList] = useState([])
 
-    fetch('http://localhost:5000/orderList')
+    fetch('https://aqueous-plains-47347.herokuapp.com/orderList')
         .then(res => res.json())
         .then(data => {
             setOrderList(data);

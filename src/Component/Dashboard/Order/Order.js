@@ -11,7 +11,7 @@ const Order = () => {
 
     const [serviceWork,setServiceWork] = useState({});
     useEffect(()=>{
-        fetch('http://localhost:5000/service/'+serviceId)
+        fetch('https://aqueous-plains-47347.herokuapp.com/service/'+serviceId)
         .then(res=>res.json())
         .then(data=>setServiceWork(data))
     },[serviceId])
@@ -31,7 +31,7 @@ const Order = () => {
         formData.append('price', addOrder.price)
         formData.append('description', addOrder.description)
         formData.append('status', 'Pending')
-        fetch('http://localhost:5000/registerOrder', {
+        fetch('https://aqueous-plains-47347.herokuapp.com/registerOrder', {
             method: 'POST',
             body: formData
         })
@@ -48,7 +48,7 @@ const Order = () => {
 
 
     // const handleSubmit = (data) =>{
-    //     fetch('http://localhost:5000/registerOrder',{
+    //     fetch('https://aqueous-plains-47347.herokuapp.com/registerOrder',{
     //         method:'POST',
     //         headers:{
     //             'Content-Type' : 'application/json'

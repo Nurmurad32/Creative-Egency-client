@@ -29,7 +29,7 @@ import Feedbacks from '../Feedbacks/Feedbacks';
 const ClientsFeedback = () => {
     const [feedbackData,setFeedbackData] = useState([])
 
-    fetch('http://localhost:5000/feedback')
+    fetch('https://aqueous-plains-47347.herokuapp.com/feedback')
     .then(res => res.json())
     .then(data =>{
         setFeedbackData(data);

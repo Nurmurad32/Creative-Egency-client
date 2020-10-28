@@ -31,7 +31,7 @@ import ServiceDetail from '../ServiceDetail/ServiceDetail';
 const Service = () => {
     const [serviceData,setServiceData] = useState([])
 
-    fetch('http://localhost:5000/service')
+    fetch('https://aqueous-plains-47347.herokuapp.com/service')
     .then(res => res.json())
     .then(data =>{
         setServiceData(data);

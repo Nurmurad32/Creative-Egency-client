@@ -12,7 +12,7 @@ const OrderedList = () => {
     const [customerOrder,setCustomerOrder] = useState([])
     const history = useHistory();
     useEffect(() => {
-        fetch('http://localhost:5000/customerOrder?email='+loggedInUser.email , {
+        fetch('https://aqueous-plains-47347.herokuapp.com/customerOrder?email='+loggedInUser.email , {
             method: 'GET',
             headers: { 
                 'Content-Type': 'application/json',
