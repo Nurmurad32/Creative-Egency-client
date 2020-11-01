@@ -1,6 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Website Link:** [Creative Agency](https://creative-agency-4e8cf.web.app/).
 
-Website Link: [Creative Agency](https://creative-agency-4e8cf.web.app/).
+## Short Description:
+• Different Link for User and Admin Panel. Admin Panel is
+fully protected.<br/>
+• Adding Service Option, admin upgrading option for an
+admin. <br/>
+• Adding review option for user. <br/>
+• Services are under processing for a user till checked by an
+admin. <br/>
+• Fully Responsive with sign-in/up feature
 
 ## Used Technologies:
 1. HTML
@@ -14,17 +22,17 @@ Website Link: [Creative Agency](https://creative-agency-4e8cf.web.app/).
 9. nodejs
 
 ## Dependencies:
-1. firebase: "^7.23.0",
-2. jwt-decode: "^3.0.0",
-3. react: "^16.13.1",
-4. react-dom: "^16.13.1",
-5. react-elastic-carousel: "^0.9.0",
-6. react-hook-form: "^6.9.2",
-7. react-router-dom: "^5.2.0",
-8. react-scripts: "3.4.3",
-9. react-slick: "^0.27.11",
-10. react-spring: "^8.0.27",
-11. slick-carousel: "^1.8.1"
+1. firebase
+2. jwt-decode
+3. react
+4. react-dom
+5. react-elastic-carousel
+6. react-hook-form
+7. react-router-dom
+8. react-scripts
+9. react-slick
+10. react-spring
+11. slick-carousel
 
 ## Available Scripts
 
